@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #000;  /* Black background */
+    color: #fff;  /* White text color */
+}
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: #333;  /* Dark gray background */
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);  /* Soft white shadow */
+}
+h1 {
+    margin-bottom: 10px;
+    font-size: 32px;
+    color: #ffd700;  /* Gold text color */
+}
+p {
+    color: #bbb;  /* Light gray text for the subtitle */
+    margin-bottom: 30px;
+}
+select {
+    width: 300 px;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    background-color: #555;  /* Darker background for inputs */
+    color: #fff;  /* White text color */
+}
+
+select.fromCurrency{
+    margin-top: 40px;
+    width: 300 px;
+    padding: 15px;
+    /* margin: 10px 0; */
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    background-color: #555;  /* Darker background for inputs */
+    color: #fff;  /* White text color */
+
+}
+
+input.val{
+    margin-left: 70px;
+}
+
+
+select.toCurrency{
+position: absolute;
+left: 550px;
+    width: 300 px;
+    padding: 15px;
+    /* margin: 10px 0; */
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    background-color: #555;  /* Darker background for inputs */
+    color: #fff;  /* White text color */
+
+}
+
+
+button.flip-button {
+    position: absolute;
+    left: 525px;
+    
+    width: 150px;
+    padding: 15px;
+    background-color: #ffd700;  /* Gold button */
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #ffc107;  /* Slightly darker gold on hover */
+}
+.result {
+    margin-top: 20px;
+    margin-left: 170px;
+    font-size: 24px;
+    color: #ffd700;  /* Gold text color */
+}
+.flip-button {
+    background-color: #ffeb3b;
+    border: none;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.exchange-rate {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 250px;
+    color: #ffd700;  /* Gold color for exchange rate */
+}
+
+button.convertbut{
+position: absolute;
+
+width: 100px;
+height: 50px;
+bottom: 155px;
+right: 470px;
+}

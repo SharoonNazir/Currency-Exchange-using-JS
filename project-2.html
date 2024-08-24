@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Exchange</title>
+    <link rel="stylesheet" href="curencystyle.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="bg1.png"
+        alt="Currency Icon"
+        width="80"
+      />
+
+      
+      <h1>Currency Exchange</h1>
+      <p>
+        Please choose your currency, the amount of the currency to convert, and
+        the target currency.
+      </p>
+      <button class="flip-button" onclick="flipCurrencies()">Flip</button>
+
+
+
+      <div class="exchange-rate" id="exchangeRate">1 USD = 278.1748 PKR</div>
+
+
+      <select id="fromCurrency" class="fromCurrency">
+        <option value="PKR">PKR - Pakistan</option>
+        <option value="USD">USD - United States</option>
+        <option value="EUR">EUR - Euro</option>
+        <option value="GBP">GBP - British Pound</option>
+        <option value="INR">INR - Indian Rupee</option>
+        <option value="JPY">JPY - Japanese Yen</option>
+      </select>
+
+
+
+
+      <input type="number" id="amount"  class="val"  placeholder="1" value="1" />
+      <br>
+      <select id="toCurrency" class="toCurrency">
+        <option value="PKR">PKR - Pakistan</option>
+        <option value="USD">USD - United States</option>
+        <option value="EUR">EUR - Euro</option>
+        <option value="GBP">GBP - British Pound</option>
+        <option value="INR">INR - Indian Rupee</option>
+        <option value="JPY">JPY - Japanese Yen</option>
+      </select>
+      <div class="result" id="result">278.17</div>
+    </div>
+
+
+<button onclick="convertCurrency()" class="convertbut">Convert</button>
+
+
+    <script src="currencywork.js"></script>
+  </body>
+</html>

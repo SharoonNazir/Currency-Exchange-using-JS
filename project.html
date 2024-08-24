@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <html lang="en">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="projectstyle.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+   
+
+ 
+<div class="landing">
+    <div class="landingChange">
+<h1 class="lp">Landing Page</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, eius.</p>
+</div>
+</div>
+
+ <!------------------- Modal ------------------------->
+
+
+<div class="stylebutton">
+    <div class="butpos">
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Apply Now</button>
+</div>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Apply</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>To sign up for classes please submit this form.</p>
+        <form>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label" placeholder="Enter Name">Full Name</label>
+            <input type="text" class="form-control" id="recipient-name">
+            <label for="recipient-name" class="col-form-label">Email</label>
+            <input type="text" class="form-control" id="recipient-email">
+            <label for="recipient-name" class="col-form-label">Password</label>
+            <input type="password" class="form-control" id="recipient-password">
+            <label for="recipient-name" class="col-form-label">Confirm Password</label>
+            <input type="password" class="form-control" id="recipient-cpassword">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- --------------------------------------------- -->
+
+<!-------- Hamburger Button -------->
+
+<div class="hamburger" onclick="toggleMenu()">
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+
+<!-------------- Landing Page Content --------------------->
+<div class="landContent">
+<h2>Cloud Native Computing</h2>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum cumque, iure necessitatibus laboriosam, a doloremque, mollitia iste aliquam sunt quas accusantium expedita laudantium debitis excepturi maiores aspernatur ipsa totam odit.</p>
+<h2>More Information</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quos deleniti corporis, eum, repellendus expedita, qui inventore rem distinctio explicabo iusto architecto quae saepe quod officia velit quas fugit deserunt.</p>
+<h2>Syllabus</h2>
+<ul><li>Project 1</li>
+<li>Project 2</li>
+<li>Project 3</li></ul>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, neque deserunt. Placeat obcaecati impedit recusandae sunt saepe! A temporibus mollitia natus, at voluptatum recusandae, facilis doloribus ullam atque, sed libero!</p>
+</div>
+
+
+<!-------------- Navigation Bar -------------->
+<div class="sidebar-menu" id="sidebar-menu">
+    <img src="sharoon.jpeg" alt="my-image" class="dp"/>
+<ul class="navigate">
+    <li class="nav-item">
+      <a class="nav" aria-current="page" href="#">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav" href="#">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav" href="#">Syllabus</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav" href="#">Contact Us</a>
+      </li>
+      
+    
+  </ul>
+  </div>
+  
+</body>
+
+<footer class="bg">
+<p class="foot">&copy;  Copyright 2024 Web, Inc</p>
+
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="projectjs.js"></script>
+
+</html>
